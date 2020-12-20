@@ -3,6 +3,6 @@
 
 Text Document              |  Handwritten output
 :-------------------------:|:-------------------------:
-![Text](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/input.png | width=450 | height=575) | ![Handwritten](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/handwritten.png | width=450 | height=575) 
+<!-- ![Text](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/input.png | width=450 | height=575) | ![Handwritten](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/handwritten.png | width=450 | height=575) -->
 
-<!-- <img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/input.png" width=450 height=575> | <img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/handwritten.png" width=450 height=575> -->
+<img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/input.png" align="left" width=450 height=575> | <img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/handwritten.png" align="right" width=450 height=575> 
