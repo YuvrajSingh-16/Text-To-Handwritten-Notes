@@ -5,5 +5,5 @@ Text Document              |  Handwritten output
 :-------------------------:|:-------------------------:
 <!-- ![Text](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/input.png = 550x700) | ![Handwritten](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/handwritten.png = 550x700) -->
 
-<img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/text.png" width=550 height=700>
+<img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/input.png" width=550 height=700>
 <img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/handwritten.png" width=550 height=700> 
