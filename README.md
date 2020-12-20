@@ -5,7 +5,8 @@ Text Document              |  Handwritten output
 :-------------------------:|:-------------------------:
 <img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/input.png" align="left" width=450 height=575> | <img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/handwritten.png" align="right" width=450 height=575> 
 
-##It does have 5 types of handwriting options
+
+## It does have 5 types of handwriting options
 
 Install the python dependencies from requirements.txt:
 ```bash
