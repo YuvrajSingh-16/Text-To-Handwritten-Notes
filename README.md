@@ -7,6 +7,11 @@ Text Document              |  Handwritten output
 
 
 ## It does have 5 types of handwriting options
+* Piyush Handwriting
+* Swagat Handwriting
+* UV Handwriting
+* Rajat Handwriting 
+* Default Handwriting
 
 Install the python dependencies from requirements.txt:
 ```bash
