@@ -1,45 +1,14 @@
-What is a coronavirus?
-The coronavirus family causes illnesses ranging from the common cold to more severe diseases such as severe acute respiratory syndrome SARS and Middle East respiratory syndrome MERS, according to the WHO.
+Artificial intelligence (AI), is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals. Leading AI textbooks define the field as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals.[3] Colloquially, the term "artificial intelligence" is often used to describe machines (or computers) that mimic "cognitive" functions that humans associate with the human mind, such as "learning" and "problem solving".[4]
 
-They circulate in animals and some can be transmitted between animals and mans. Several coronaviruses are circulating in animals that have not yet infected humans.
+As machines become increasingly capable, tasks considered to require "intelligence" are often removed from the definition of AI, a phenomenon known as the AI effect.[5] A quip in Tesler's Theorem says "AI is whatever hasn't been done yet."[6] For instance, optical character recognition is frequently excluded from things considered to be AI,[7] having become a routine technology.[8] Modern machine capabilities generally classified as AI include successfully understanding human speech,[9] competing at the highest level in strategic game systems (such as chess and Go),[10] autonomously operating cars, intelligent routing in content delivery networks, and military simulations.[11]
 
-The new coronavirus, the seventh known to affect humans,
+Artificial intelligence was founded as an academic discipline in 1955, and in the years since has experienced several waves of optimism,[12][13] followed by disappointment and the loss of funding (known as an "AI winter"),[14][15] followed by new approaches, success and renewed funding.[13][16] For most of its history, AI research has been divided into sub-fields that often fail to communicate with each other.[17] These sub-fields are based on technical considerations, such as particular goals (e.g. "robotics" or "machine learning"),[18] the use of particular tools ("logic" or artificial neural networks), or deep philosophical differences.[21][22][23] Sub-fields have also been based on social factors (particular institutions or the work of particular researchers).[17]
 
-MORE ON HEALTH
-Peru COVID-19 outbreak: Health workers demand more protection last week
+The traditional problems (or goals) of AI research include reasoning, knowledge representation, planning, learning, natural language processing, perception and the ability to move and manipulate objects.[18] General intelligence is among the field's long-term goals.[24] Approaches include statistical methods, computational intelligence, and traditional symbolic AI. Many tools are used in AI, including versions of search and mathematical optimization, artificial neural networks, and methods based on statistics, probability and economics. The AI field draws upon computer science, information engineering, mathematics, psychology, linguistics, philosophy, and many other fields.
 
-Grim India record with 2,000 dead in a day: Live updates last week
+The field was founded on the assumption that human intelligence "can be so precisely described that a machine can be made to simulate it".[25] This raises philosophical arguments about the mind and the ethics of creating artificial beings endowed with human-like intelligence. These issues have been explored by myth, fiction and philosophy since antiquity.[30] Some people also consider AI to be a danger to humanity if it progresses unabated.[31][32] Others believe that AI, unlike previous technological revolutions, will create a risk of mass unemployment.[33]
 
-Chile sees spike in COVID-19 deaths as lockdown falters last week
+In the twenty-first century, AI techniques have experienced a resurgence following concurrent advances in computer power, large amounts of data, and theoretical understanding; and AI techniques have become an essential part of the technology industry, helping to solve many challenging problems in computer science, software engineering and operations research.
+Thought-capable artificial beings appeared as storytelling devices in antiquity,[35] and have been common in fiction, as in Mary Shelley's Frankenstein or Karel Čapek's R.U.R. (Rossum's Universal Robots).[36] These characters and their fates raised many of the same issues now discussed in the ethics of artificial intelligence.[30]
 
-Beijing shuts schools over new coronavirus outbreak: Live updates last week
-
-The World Health Organization (WHO) has declared the new coronavirus outbreak, which originated in Wuhan, China, a pandemic. 
-
-As of June 25, the global death toll surpassed 482,000 amid more than 9.4 million cases. Over 4.7 million people have recovered from the disease worldwide, according to the data collected by the Johns Hopkins University in the United States.
-
-More:
-Coronavirus: All you need to know about the symptoms and risks
-How does coronavirus spread and how can you protect yourself ?
-Coronavirus: Which countries have confirmed new cases ?
-Here is what you need to know:
-
-What is a coronavirus ?
-The coronavirus family causes illnesses ranging from the common cold to more severe diseases such as severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS), according to the WHO.
-
-They circulate in animals and some can be transmitted between animals and humans. Several coronaviruses are circulating in animals that have not yet infected humans.
-
-The new coronavirus, the seventh known to affect humans, has been named COVID-19.
-
-
-Coronavirus: Italy to close all schools and universities (2:19)
-
-What are the symptoms ?
-Common signs of infection include fever, coughing and breathing difficulties. In severe cases, it can cause pneumonia, multiple organ failure and death.
-The WHO recommends basic hygiene such as regularly washing hands with soap and water, and covering your mouth with your elbow when sneezing or coughing.
-
-Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
-Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.
-HOW IT SPREADS
-The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or exhales. These droplets are too heavy to hang in the air, and quickly fall on floors or surfaces.
-You can be infected by breathing in the virus if you are within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.
+The study of mechanical or "formal" reasoning began with philosophers and mathematicians in antiquity. The study of mathematical logic led directly to Alan Turing's theory of computation, which suggested that a machine, by shuffling symbols as simple as "0" and "1", could simulate any conceivable act of mathematical deduction. This insight, that digital computers can simulate any process of formal reasoning, is known as the Church–Turing thesis.[37] Along with concurrent discoveries in neurobiology, information theory and cybernetics, this led researchers to consider the possibility of building an electronic brain. Turing proposed changing the question from whether a machine was intelligent, to "whether or not it is possible for machinery to show intelligent behaviour".[38] The first work that is now generally recognized as AI was McCullouch and Pitts' 1943 formal design for Turing-complete "artificial neurons".[39]
