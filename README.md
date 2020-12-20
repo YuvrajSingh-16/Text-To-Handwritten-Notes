@@ -3,4 +3,4 @@
 
 Text Document              |  Handwritten output
 :-------------------------:|:-------------------------:
-![Text]("/text.png") | ![Handwritten]("handwritten.png")
+![Text]("/text.png") | ![Handwritten]("./handwritten.png")
