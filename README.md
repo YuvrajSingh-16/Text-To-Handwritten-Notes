@@ -9,3 +9,7 @@ Install the python dependencies from requirements.txt:
 ```bash
 pip install -r requirements.txt
 ```
+
+#### You just need to add two folders inside TTH directory :
+* Output
+* PDF_outputs
