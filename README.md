@@ -13,3 +13,7 @@ pip install -r requirements.txt
 #### You just need to add two folders inside TTH directory :
 * Output
 * PDF_outputs
+
+
+#### For those who don't have python installed in their system can directly use exe file provided with it `UV_write.exe`
+##### Just double click the file and input the quality you want of the output PDF.
