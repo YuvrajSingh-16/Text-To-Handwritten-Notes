@@ -3,6 +3,7 @@
 
 Text Document              |  Handwritten output
 :-------------------------:|:-------------------------:
-<!-- ![Text]("text.png") | ![Handwritten]("https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/handwritten.png") -->
-<img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/handwritten.png">
-<img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/text.png">
+ ![Text]("https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/text.png?raw=true") | ![Handwritten]("https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/handwritten.png?raw=true")
+
+<!-- <img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/text.png" width=>
+<img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/handwritten.png"> -->
