@@ -11,7 +11,7 @@ margin = 115
 lineMargin = 115
 allowedCharacters = '''ABCDEFGHIJKLMNOPQRSTUVWXYZ 
                         abcdefghijklmnopqrstuvwxyz 
-                        #:,.?-!()[]'<>=%^$@_ 1234567890 "'''
+                        #:,.?-!()[]'<>=%^$@_^; 1234567890 "'''
 
 lineGap = 165
 wordsPerLine = 96
@@ -163,6 +163,8 @@ def ProcessNwrite(word):
                     path += "bracketcl"
                 elif letter == ":":
                     path += "colon"
+                elif letter == ";":
+                    path += "semicolon"
                 elif letter == "{":
                     path += "Cbracketop"
                 elif letter == "}":
@@ -191,6 +193,8 @@ def ProcessNwrite(word):
                     path += "asterisk"
                 elif letter == "_":
                     path += "underscore"
+                elif letter == "^":
+                    path += "cap"
                 elif letter == '"' and wasDQ:
                     path += "cdq"
                     wasDQ = False

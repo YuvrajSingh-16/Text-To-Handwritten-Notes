@@ -11,7 +11,7 @@ margin = 115
 lineMargin = 115
 allowedCharacters = '''ABCDEFGHIJKLMNOPQRSTUVWXYZ 
                         abcdefghijklmnopqrstuvwxyz 
-                        #:,.?-!()[]'<>=%^$@_ 1234567890 "'''
+                        #:,.?-!()[]'<>=%^$@_^; 1234567890 "'''
 
 lineGap = 144
 wordsPerLine = 96
@@ -85,7 +85,7 @@ def ProcessNwrite(word):
     if x > SheetWidth - wordsPerLine*len(word):
         newLine()
         
-    Check_pageExceed()
+    check_pageExceed()
                 
     path = FontType
     for letter in word:
@@ -116,6 +116,8 @@ def ProcessNwrite(word):
                     path += "bracketcl"
                 elif letter == ":":
                     path += "colon"
+                elif letter == ";":
+                    path += "semicolon"
                 elif letter == "{":
                     path += "Cbracketop"
                 elif letter == "}":
@@ -144,6 +146,8 @@ def ProcessNwrite(word):
                     path += "asterisk"
                 elif letter == "_":
                     path += "underscore"
+                elif letter == "^":
+                    path += "cap"
                 elif letter == '"' and wasDQ:
                     path += "cdq"
                     wasDQ = False
@@ -156,7 +160,6 @@ def ProcessNwrite(word):
             path = FontType
         else:
             writeAlphabet("Fonts/myfont/space.png")
-
 
 def writeByLine(data):
     global x, y, background, pageNum, writing
@@ -218,11 +221,11 @@ if __name__ == "__main__":
         for i in range(0, pageNum):
             pdf.add_page()
             pdf.image(ImagesPath[i], 0, 0)
-            
+        '''    
         print("[+] Revoming unnecessary files")
         for path in ImagesPath:
             os.remove(path)            
-            
+        '''    
         print("\n[+] Saving the pdf...")
         pdf_name = "PDF_outputs/{}_Output.pdf".format(writing)
         pdf.output(pdf_name, "F")
