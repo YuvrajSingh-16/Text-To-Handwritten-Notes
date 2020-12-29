@@ -1,9 +1,14 @@
 from PIL import Image
 from fpdf import FPDF
 import sys
+import argparse
 import cv2
 import os
 import time
+
+ap = argparse.ArgumentParser()
+ap.add_argument("-f", "--font", required=True, help="font")
+args = vars(ap.parse_args())
 
 background = Image.open("../Fonts/myfont/a4.jpg")
 SheetWidth = background.width
@@ -18,9 +23,9 @@ maxLenPerPage = 3349
 pageNum = 1
 
 filePath = "../input.txt"
-FontType = "../Fonts/UV_font/"
 lineGap = 120
-writing = "UV"
+writing = args["font"]
+FontType = "../Fonts/{}_font/".format(writing)
 
 print("Starting.")
 
