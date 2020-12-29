@@ -22,12 +22,12 @@ FontType = "../Fonts/UV_font/"
 lineGap = 120
 writing = "UV"
 
-print("Starting...")
+print("Starting.")
 
 x, y = margin + 20, margin + lineGap
 
 scale_percent = int(
-    input("What percent of quality (between 40 to 100) you want in output file?")
+    input("What percent of quality (between 40 to 100) you want in output file? ")
 )
 
 if scale_percent < 0 or scale_percent > 100 or scale_percent < 40:
@@ -66,7 +66,7 @@ def check_pageExceed():
 
     if y >= 3100:
         background.save("../Output/{}_output_{}.png".format(writing, pageNum))
-        print("Saved page: ", pageNum)
+        print("Saved Page: ", pageNum)
         bg = Image.open("../Fonts/myfont/a4.jpg")
         background = bg
         x, y = margin, margin + lineGap
@@ -185,7 +185,7 @@ if __name__ == "__main__":
         for i in range(len(content)):
             writeByLine(content[i])
             newLine()
-        print("Saved Page ->", pageNum)
+        print("Saved Page: ", pageNum)
 
         background.save("../Output/{}_output_{}.png".format(writing, pageNum))
 
@@ -194,7 +194,7 @@ if __name__ == "__main__":
             for page in range(1, pageNum + 1)
         ]
 
-        print("Adding lines....")
+        print("Adding lines.")
 
         for path in ImagesPath:
             img = cv2.imread(path, cv2.IMREAD_COLOR)
