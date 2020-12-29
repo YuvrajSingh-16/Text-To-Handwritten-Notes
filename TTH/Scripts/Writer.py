@@ -10,6 +10,9 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-f", "--font", required=True, help="font")
 args = vars(ap.parse_args())
 
+os.makedirs("../Output", exist_ok=True)
+os.makedirs("../PDF_Outputs", exist_ok=True)
+
 background = Image.open("../Fonts/myfont/a4.jpg")
 SheetWidth = background.width
 margin = 115
@@ -227,7 +230,7 @@ if __name__ == "__main__":
             pdf.image(ImagesPath[i], 0, 0)
 
         print("Saving the pdf.")
-        pdf_name = "../PDF_outputs/{}_Output.pdf".format(writing)
+        pdf_name = "../PDF_Outputs/{}_Output.pdf".format(writing)
         pdf.output(pdf_name, "F")
 
         print("Removing unnecessary files.")
