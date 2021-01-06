@@ -18,7 +18,7 @@ Converts text into a PDF of handwritten notes
 ### Steps:
 
 ```bash
-$ git clone https://github.com/amogh-w/Text-To-Handwritten-Notes
+$ git clone https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes.git
 $ cd Text-To-Handwritten-Notes/TTH
 $ pip install -r requirements.txt
 $ cd Scripts
