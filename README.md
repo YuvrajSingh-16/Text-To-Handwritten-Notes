@@ -1,27 +1,51 @@
-<h1 align="center"> Text-To-Handwritten-Notes</h1>
-<p align="center">Converts text into a PDF of handwritten notes</p>
+<h3 align="center"> Text To Handwritten Notes </h3>
 
-Text Document              |  Handwritten output
-:-------------------------:|:-------------------------:
-<img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/input.png" align="left" width=450 height=575> | <img src="https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes/blob/main/handwritten.png" align="right" width=450 height=575> 
+<p align="center">
+Converts text into a PDF of handwritten notes
+    <br />
+    <a href="#"><strong> Explore the docs » </strong></a>
+    <br />
+    <br />
+    ·
+    <a href="#">Report Bug</a>
+    ·
+    <a href="#">Request Feature</a>
+    ·
+</p>
 
+![](Media/home.png "Home")
 
-## It does have 5 types of handwriting options
-* Piyush Handwriting
-* Swagat Handwriting
-* UV Handwriting
-* Rajat Handwriting 
-* Default Handwriting
+### Steps:
 
-Install the python dependencies from requirements.txt:
 ```bash
-pip install -r requirements.txt
+$ git clone https://github.com/amogh-w/Text-To-Handwritten-Notes
+$ cd Text-To-Handwritten-Notes/TTH
+$ pip install -r requirements.txt
+$ cd Scripts
+$ python Writer.py --font FONT_NAME
 ```
 
-#### You just need to add two folders inside TTH directory :
-* Output
-* PDF_outputs
+### Working
 
+![](Media/working.gif "Working")
 
-#### For those who don't have python installed in their system can directly use exe file provided with it `UV_write.exe`
-##### Just double click the file and input the quality you want of the output PDF.
+Note: Change the Variable FONT_NAME to the font you want
+
+Supported Fonts
+
+- Piyush
+- Rajat
+- Swagat
+- UV
+
+## Contributing:
+
+Contributions are what makes the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+All you simply need to do is:
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
