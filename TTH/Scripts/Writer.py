@@ -26,8 +26,17 @@ maxLenPerPage = 3349
 pageNum = 1
 
 filePath = "../input.txt"
-lineGap = 120
 writing = args["font"]
+
+if writing.lower() == "uv":
+  lineGap = 120
+elif writing.lower() == "rajat" or writing.lower() == "swagat":
+  lineGap = 165
+elif writing.lower() == "piyush":
+  lineGap = 144
+else:
+  lineGap = 150
+
 FontType = "../Fonts/{}_font/".format(writing)
 
 print("Starting.")
