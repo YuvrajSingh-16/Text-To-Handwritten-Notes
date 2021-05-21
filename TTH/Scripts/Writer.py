@@ -19,7 +19,7 @@ margin = 115
 lineMargin = 115
 allowedCharacters = '''ABCDEFGHIJKLMNOPQRSTUVWXYZ 
                         abcdefghijklmnopqrstuvwxyz 
-                        #:,.?-!()[]'<>=%^$@_;1234567890 "'''
+                        #:,.?-!{}()[]'<>+=%^$@_;1234567890 "'''
 
 wordsPerLine = 80
 maxLenPerPage = 3349
